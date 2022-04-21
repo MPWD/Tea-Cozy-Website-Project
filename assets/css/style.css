@@ -1,0 +1,198 @@
+* {
+    font-family: helvetica, Arial, sans-serif;
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    opacity: 0.9;
+}
+
+body {
+    background-color: black;
+    font-size: 22px;
+}
+
+header {
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    display: fixed;
+}
+
+.main-nav {
+    align-items: center;
+}
+
+.nav {
+    display: inline-flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.nav li a {
+    color: gray;
+    text-decoration: underline;
+    padding: 0 15px;
+}
+
+.main-nav ul li:hover a {
+    color: red;
+}
+
+.logo {
+    margin-left: 10px;
+    height: 50px;
+}
+
+.main-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    background-image: url(../img/img-mission-background.webp);
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-text {
+    background-color: black;
+    display: column;
+    text-align: center;
+    color: seashell;
+    padding: 20px;
+    width: 1200px;
+}
+
+.hero-text h2 {
+    margin-bottom: 20px;
+}
+
+.hero-text h4 {
+}
+
+.tea-heading {
+    color: seashell;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.tea-heading h2 {
+    margin-bottom: 20px;
+}
+
+.popular-teas {
+    display: flex;
+    justify-content: center;
+}
+
+.tea-main {
+   width: 1000px;
+   margin-top: 50px;
+}
+
+.tea-cards {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    width: 300px;
+    flex-basis: auto;
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 300px;
+    height: 200px;
+}
+
+.card-text {
+    color: seashell;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.locations {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.location-main {
+    background-image: url(../img/img-locations-background.webp);
+    height: 500px;
+    width: 1200px;
+    align-items: center;
+    display: flex;
+}
+
+.cards {
+    text-align: center;
+    width:100%;
+}
+
+.address-cards {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 40px;
+}
+
+.address-card {
+}
+
+.address-card li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    width: 300px;
+    height: 60px;
+    color: gray;
+}
+
+.location-card {
+    text-align: center;
+}
+
+.address-card  li {
+    list-style: none;
+}
+
+.location-heading h2 {
+    display: block;
+    margin-bottom: 15px;
+    color: #fff;
+    text-align: center;
+}
+
+footer .container {
+    height:200px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-main {
+    text-align: center;
+    color:#fff;
+    margin: 0 40px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-around;
+}
+
+.footer-base {
+    color: seashell;
+    text-align: left;
+    margin: 0 0 20px 20px;
+    font-size: 12px;
+}
